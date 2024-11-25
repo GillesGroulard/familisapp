@@ -414,7 +414,7 @@ export const SlideshowScreen: React.FC<SlideshowScreenProps> = ({ familyId, setA
         >
           {currentReaction ? (
             <span className="text-4xl filter drop-shadow-lg">
-              {{'LOVE': '❤️', 'SMILE': '😊', 'HUG': '🤗', 'PROUD': '👏'}[currentReaction]}
+              {{'Coeur': '❤️', 'Content(e)': '😊', 'Calin': '🤗', 'Fierté': '👏'}[currentReaction]}
             </span>
           ) : (
             <Heart className="w-12 h-12 text-white" />
