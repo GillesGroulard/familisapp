@@ -54,10 +54,10 @@ export const FeedScreen: React.FC<FeedScreenProps> = ({ familyId }) => {
             <Users className="w-8 h-8 text-primary-600" />
           </div>
           <h2 className="text-xl font-semibold text-gray-800 mb-2">
-            Select a Family
+            Choisisez une famille
           </h2>
           <p className="text-gray-600 mb-6">
-            Choose a family from the sidebar to view their posts
+            Choisisez une famille pour y voir les posts !
           </p>
         </div>
       </div>
@@ -130,7 +130,7 @@ export const FeedScreen: React.FC<FeedScreenProps> = ({ familyId }) => {
                   <button
                     onClick={() => handleReminderAcknowledge(reminder.id)}
                     className="p-1 text-gray-400 hover:text-gray-600"
-                    title="Dismiss reminder"
+                    title="Supprimer le rappel"
                   >
                     <X className="w-5 h-5" />
                   </button>
@@ -148,16 +148,16 @@ export const FeedScreen: React.FC<FeedScreenProps> = ({ familyId }) => {
             <Users className="w-8 h-8 text-primary-600" />
           </div>
           <h2 className="text-xl font-semibold text-gray-800 mb-2">
-            No Posts Yet
+            Pas encore de post
           </h2>
           <p className="text-gray-600 mb-6">
-            Be the first one to share a moment with your family!
+            Soyez le premier à poster pour votre famille !
           </p>
           <button
             onClick={() => window.location.hash = 'photos'}
             className="bg-primary-500 text-white px-6 py-2 rounded-lg hover:bg-primary-600 transition-colors"
           >
-            Share a Photo
+            Partagez une photo !
           </button>
         </div>
       ) : (
