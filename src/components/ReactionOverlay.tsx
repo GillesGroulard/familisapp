@@ -2,10 +2,10 @@ import React from 'react';
 import { X } from 'lucide-react';
 
 const REACTIONS = [
-  { emoji: '❤️', type: 'LOVE', label: 'Love' },
-  { emoji: '😊', type: 'SMILE', label: 'Happy' },
-  { emoji: '🤗', type: 'HUG', label: 'Hug' },
-  { emoji: '👏', type: 'PROUD', label: 'Proud' }
+  { emoji: '❤️', type: 'LOVE', label: 'Coeur' },
+  { emoji: '😊', type: 'SMILE', label: 'Content(e)' },
+  { emoji: '🤗', type: 'HUG', label: 'Calin' },
+  { emoji: '👏', type: 'PROUD', label: 'Fierté' }
 ] as const;
 
 interface ReactionOverlayProps {
