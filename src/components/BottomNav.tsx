@@ -40,7 +40,7 @@ export const BottomNav = ({ activeTab, setActiveTab }: BottomNavProps) => {
         />
         <NavItem
           icon={<Users className="w-6 h-6" />}
-          label="Paramètre de famille"
+          label="Paramètres de famille"
           active={activeTab === 'join'}
           onClick={() => setActiveTab('join')}
         />
