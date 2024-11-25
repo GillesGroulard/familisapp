@@ -71,7 +71,7 @@ export const ReminderForm: React.FC<ReminderFormProps> = ({ familyId }) => {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             className="w-full p-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-            placeholder="Enter reminder title"
+            placeholder="Entrez le titre du rappel"
             required
           />
         </div>
@@ -84,7 +84,7 @@ export const ReminderForm: React.FC<ReminderFormProps> = ({ familyId }) => {
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             className="w-full p-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-            placeholder="Add more details about the reminder"
+            placeholder="Ajoutez plus de détails a votre rappel"
             rows={3}
           />
         </div>
@@ -131,7 +131,7 @@ export const ReminderForm: React.FC<ReminderFormProps> = ({ familyId }) => {
           {loading ? (
             <>
               <Loader2 className="w-5 h-5 animate-spin" />
-              Creating Reminder...
+              Créer un rappel...
             </>
           ) : (
             'Add Reminder'
