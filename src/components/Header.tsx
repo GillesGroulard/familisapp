@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({ currentFamilyId }) => {
         {currentFamily && (
           <div className="absolute left-1/2 -translate-x-1/2 text-center">
             <h2 className="text-lg font-semibold text-gray-800">
-              Famile de  {currentFamily.display_name || currentFamily.name}
+              Famille de  {currentFamily.display_name || currentFamily.name}
             </h2>
           </div>
         )}
