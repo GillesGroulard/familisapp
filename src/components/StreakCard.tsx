@@ -8,7 +8,7 @@ interface StreakCardProps {
 
 export const StreakCard: React.FC<StreakCardProps> = ({ streak, lastPostDate }) => {
   const getStreakStatus = () => {
-    if (!lastPostDate) return 'Start your streak by sharing your first photo!';
+    if (!lastPostDate) return 'Partagez une photo pour démarrer votre flamme';
     
     const today = new Date().toISOString().split('T')[0];
     const lastPost = new Date(lastPostDate).toISOString().split('T')[0];
@@ -18,7 +18,7 @@ export const StreakCard: React.FC<StreakCardProps> = ({ streak, lastPostDate }) 
 
     if (daysSinceLastPost === 0) return "You've posted today! 🎉";
     if (daysSinceLastPost === 1) return 'Post today to keep your streak alive!';
-    return 'Post today to start a new streak!';
+    return 'Postez pour maintenir votre flamme !';
   };
 
   const formatDate = (date: string) => {
@@ -57,8 +57,8 @@ export const StreakCard: React.FC<StreakCardProps> = ({ streak, lastPostDate }) 
 
       <div className="mt-4 p-4 bg-orange-50 rounded-lg">
         <p className="text-sm text-orange-700">
-          <strong>How streaks work:</strong> Share a photo every day to build your streak. 
-          Miss a day and your streak resets. Multiple posts in one day count as a single day.
+          <strong>Comment fonctionnent les flammes :</strong> Partagez une photo chaque jour pour allumer vos flammes.
+Manquez un jour, et vos flammes s’éteignent. Plusieurs publications dans une même journée comptent pour une seule journée.
         </p>
       </div>
     </div>
