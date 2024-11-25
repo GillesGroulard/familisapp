@@ -5,6 +5,9 @@
 [build.environment]
   NODE_VERSION = "18"
 
+[[plugins]]
+  package = "netlify-plugin-image-optim"
+
 [[redirects]]
   from = "/progressier.js"
   to = "/progressier.js"
