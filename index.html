@@ -1,16 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="manifest" href="https://progressier.app/XaZgMzZkJeru5sBXKNMv/progressier.json" />
-    <script defer src="https://progressier.app/XaZgMzZkJeru5sBXKNMv/script.js"></script>
-    <title>Familis app</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <!-- Métadonnées essentielles -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="max-age=31536000, must-revalidate">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+
+  <!-- Préchargement pour améliorer les performances -->
+  <link rel="preload" href="/src/main.tsx" as="script">
+
+  <!-- Progressier manifest -->
+  <link rel="manifest" href="https://progressier.app/XaZgMzZkJeru5BXKNMV/progressier.json">
+
+  <!-- Script Progressier optimisé -->
+  <script async src="https://progressier.app/XaZgMzZkJeru5BXKNMV/script.js"></script>
+
+  <title>Familis App</title>
+</head>
+<body>
+  <!-- Point d’entrée pour l’application -->
+  <div id="root"></div>
+
+  <!-- Script principal -->
+  <script type="module" src="/src/main.tsx"></script>
+</body>
 </html>
+
 
