@@ -32,7 +32,7 @@ export const ReactionOverlay: React.FC<ReactionOverlayProps> = ({
         </button>
 
         <h2 className="text-2xl font-semibold text-center mb-8">
-          How do you feel about this photo?
+          Qu'en pensez-vous ?
         </h2>
 
         <div className="grid grid-cols-2 gap-6">
