@@ -21,7 +21,7 @@ export const ElderlyReactions: React.FC<ElderlyReactionsProps> = ({ reactions })
     <div className="mt-4 bg-blue-50 rounded-xl p-4">
       <div className="flex items-center gap-2 mb-3 text-blue-800">
         <Heart className="w-5 h-5" />
-        <h4 className="font-medium">Elder's Reactions</h4>
+        <h4 className="font-medium">Réactions de l'aîné</h4>
       </div>
       <div className="space-y-2">
         {reactions.map((reaction) => (
