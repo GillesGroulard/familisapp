@@ -107,7 +107,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, onDelete }) => {
                 <div className="flex items-center bg-orange-100 px-2 py-0.5 rounded-full">
                   <Flame className="w-4 h-4 text-orange-500 mr-1" />
                   <span className="text-sm font-medium text-orange-600">
-                    {post.streak_count} day{post.streak_count !== 1 ? 's' : ''}
+                    {post.streak_count} Jour{post.streak_count !== 1 ? 's' : ''}
                   </span>
                 </div>
               </div>
