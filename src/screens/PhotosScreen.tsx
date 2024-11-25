@@ -54,7 +54,7 @@ export const PhotosScreen = () => {
           }`}
         >
           <Clock className="w-5 h-5" />
-          Add Reminders
+          Ajouter un rappel
         </button>
       </div>
 
