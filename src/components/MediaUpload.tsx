@@ -302,7 +302,7 @@ export const MediaUpload: React.FC<MediaUploadProps> = ({ onSubmit }) => {
 
       <div className="space-y-2">
         <label className="block text-sm font-medium text-gray-700">
-          Share with families
+          Partagez avec votre famille !
         </label>
         <div className="space-y-2">
           {families.map((family) => (
