@@ -61,7 +61,7 @@ export const PhotoUpload: React.FC<PhotoUploadProps> = ({ onSubmit }) => {
             />
             <div className="h-full flex flex-col items-center justify-center text-gray-500">
               <ImagePlus className="w-12 h-12 mb-2" />
-              <span className="text-sm font-medium">Click to upload a photo</span>
+              <span className="text-sm font-medium">Clickez pour ajouter une photo</span>
             </div>
           </label>
         )}
@@ -70,7 +70,7 @@ export const PhotoUpload: React.FC<PhotoUploadProps> = ({ onSubmit }) => {
       <textarea
         value={caption}
         onChange={(e) => setCaption(e.target.value)}
-        placeholder="Write a caption..."
+        placeholder="Ecrivez un petit mot..."
         className="w-full p-3 rounded-xl border border-gray-200 focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-colors resize-none"
         rows={3}
       />
@@ -80,7 +80,7 @@ export const PhotoUpload: React.FC<PhotoUploadProps> = ({ onSubmit }) => {
         disabled={!preview || !caption}
         className="w-full bg-purple-600 text-white py-3 px-4 rounded-xl font-medium hover:bg-purple-700 focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        Share with Family
+        Partager avec votre famille !
       </button>
     </form>
   );
