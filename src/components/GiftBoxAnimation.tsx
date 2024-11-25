@@ -31,8 +31,8 @@ export const GiftBoxAnimation: React.FC<GiftBoxAnimationProps> = ({ onOpen }) =>
         >
           <Gift className="w-16 h-16" />
           <div className="text-center">
-            <div className="text-2xl font-bold mb-2">New Photo!</div>
-            <div className="text-lg">Tap to view</div>
+            <div className="text-2xl font-bold mb-2">Nouvelle photo !</div>
+            <div className="text-lg">Appuyer pour voir</div>
           </div>
         </button>
       </div>
