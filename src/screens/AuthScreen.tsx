@@ -79,14 +79,14 @@ export const AuthScreen = () => {
         </div>
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
           {mode === 'login'
-            ? 'Welcome back'
+            ? 'Bienvenue !'
             : signupStep === 'details'
-            ? 'Create your account'
-            : 'Join your family'}
+            ? 'Créez vous un compte'
+            : 'Rejoignez votre famille'}
         </h2>
         {mode === 'login' ? (
           <p className="mt-2 text-center text-sm text-gray-600">
-            Don't have an account?{' '}
+            Vous n'avez pas de compte ?{' '}
             <button
               onClick={() => setMode('signup')}
               className="font-medium text-primary-500 hover:text-primary-400"
@@ -263,7 +263,7 @@ export const AuthScreen = () => {
                       className="w-full flex items-center justify-center gap-3 p-4 bg-white text-primary-500 border-2 border-primary-500 rounded-lg hover:bg-primary-50 transition-colors"
                     >
                       <User className="w-5 h-5" />
-                      <span className="font-medium">Join Existing Family</span>
+                      <span className="font-medium">Rejoignez une famille</span>
                     </button>
                   </div>
                 ) : familyAction === 'create' ? (
@@ -304,7 +304,7 @@ export const AuthScreen = () => {
                         value={joinCode}
                         onChange={(e) => setJoinCode(e.target.value.toUpperCase())}
                         className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500"
-                        placeholder="Enter the family code"
+                        placeholder="Entrez le code de famille"
                       />
                     </div>
                   </div>
