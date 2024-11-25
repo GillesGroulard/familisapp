@@ -40,26 +40,26 @@ export const BottomNav = ({ activeTab, setActiveTab }: BottomNavProps) => {
         />
         <NavItem
           icon={<Users className="w-6 h-6" />}
-          label="Join Family"
+          label="Paramètre de famille"
           active={activeTab === 'join'}
           onClick={() => setActiveTab('join')}
         />
         <NavItem
           icon={<ImagePlus className="w-6 h-6" />}
-          label="Add Photos"
+          label="Ajouter des Photos"
           active={activeTab === 'photos'}
           onClick={() => setActiveTab('photos')}
           primary
         />
         <NavItem
           icon={<UserCircle className="w-6 h-6" />}
-          label="Profile"
+          label="Profil"
           active={activeTab === 'profile'}
           onClick={() => setActiveTab('profile')}
         />
         <NavItem
           icon={<PlaySquare className="w-6 h-6" />}
-          label="Slideshow"
+          label="Diaporama"
           active={activeTab === 'slideshow'}
           onClick={() => setActiveTab('slideshow')}
         />
