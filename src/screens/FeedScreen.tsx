@@ -98,7 +98,7 @@ export const FeedScreen: React.FC<FeedScreenProps> = ({ familyId }) => {
                 <Clock className="w-5 h-5 text-primary-600" />
               </div>
               <div>
-                <h3 className="font-semibold text-gray-800">Family Reminders</h3>
+                <h3 className="font-semibold text-gray-800">Rappels de la famille</h3>
                 <p className="text-sm text-gray-500">
                   {reminders.length} active {reminders.length === 1 ? 'reminder' : 'reminders'}
                 </p>
