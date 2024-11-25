@@ -131,7 +131,7 @@ export const ReminderSection: React.FC<ReminderSectionProps> = ({ families, onSu
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Target Audience
+            Pour qui ?
           </label>
           <div className="grid grid-cols-2 gap-4">
             <label className="flex items-center p-3 border border-gray-200 rounded-lg cursor-pointer hover:bg-gray-50">
@@ -142,7 +142,7 @@ export const ReminderSection: React.FC<ReminderSectionProps> = ({ families, onSu
                 onChange={(e) => setTargetAudience(e.target.value as 'ELDER' | 'FAMILY')}
                 className="w-4 h-4 text-primary-600 border-gray-300 focus:ring-primary-500"
               />
-              <span className="ml-2 text-sm text-gray-700">Elder (Slideshow)</span>
+              <span className="ml-2 text-sm text-gray-700">Ainé</span>
             </label>
             <label className="flex items-center p-3 border border-gray-200 rounded-lg cursor-pointer hover:bg-gray-50">
               <input
@@ -152,7 +152,7 @@ export const ReminderSection: React.FC<ReminderSectionProps> = ({ families, onSu
                 onChange={(e) => setTargetAudience(e.target.value as 'ELDER' | 'FAMILY')}
                 className="w-4 h-4 text-primary-600 border-gray-300 focus:ring-primary-500"
               />
-              <span className="ml-2 text-sm text-gray-700">Family (Feed)</span>
+              <span className="ml-2 text-sm text-gray-700">Pour les membres de la famille</span>
             </label>
           </div>
         </div>
